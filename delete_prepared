@@ -1,0 +1,1 @@
+select gid from pg_prepared_xacts where database = current_database();
